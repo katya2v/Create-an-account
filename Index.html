@@ -1,66 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
- 
-    <div>
-        <h2>Create An Account</h2>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <h2>CREATE AN ACCOUNT</h2>
         <p>We always keep your name and email address private</p>
-    </div>
-    
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      </div>
 
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      <div class="row">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last name" />
+      </div>
 
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      <div class="row">
+          <input type="text" placeholder="Display Name" />
+          <input type="text" placeholder="Email Address" />
+      </div>
 
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      <div class="row">
+          <input type="text" placeholder="Password" />
+          <input type="text" placeholder="Password Confirmation" />
+      </div>
 
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      <div class="div">
+        <input class="input" type="radio" name="color" />
+        <div>
+          <label for="radio">Join As a Buyer</label>
+          <span class="span">
+            I am looking for a Name, Logo or Tagline for my business, brand or
+            product
+          </span>
+        </div>
+      </div>
 
-    <div>
-        <label for="text"></label>
-        <input type="text" placeholder="text">
-    </div>
+      <div class="div">
+        <input class="input" type="radio" name="color" />
+        <div>
+          <label for="radio">Join As a Creative or Marketplace Seller </label>
+          <span class="span">
+            I am looking for a Name, Logo or Tagline for my business, brand or
+            product.
+          </span>
+        </div>
+      </div>
 
-    <div>
-        <label for="radio">check</label>
-        <input type="radio" id="radio" name="color">
-    </div>
-
-     <div>
-        <label for="radio">checkbox</label>
-        <input type="radio" id="radio" name="color">
-    </div>
-
-    <div>
-        <label for="chb">checkbox</label>
-        <input type="checkbox" id="chb" >
-    </div>
-    
-     <!-- <div>
-        <label for="chb">checkbox</label>
-        <input type="checkbox" id="chb" checked>
-    </div> -->
-
-</body>
+      <div>
+        <input type="checkbox" id="chb" />
+        <label class="label" for="chb">
+          Allow Squadhelp to send marketing/promotional offers from time to time
+        </label>
+      </div>
+      <button>Create account</button>
+    </form>
+  </body>
 </html>
